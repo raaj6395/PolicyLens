@@ -1,0 +1,8 @@
+{
+  "case_id": "PA-009",
+  "requested_service": "Bariatric surgery",
+  "packet": "Pre-auth request form: Requested service: Bariatric surgery.\nClinical summary: Clinical scenario: Morbid obesity with diabetes/OSA.\nKey findings: BMI \u003e40; diabetes/OSA; supervised weight-management program documented; psych clearance done.\nUtilization review note: Gaps or risks noted: Nicotine cessation date unclear.",
+  "recommendation": "NEED_MORE_INFO",
+  "why": "Clinical indication strong but program/policy prerequisites must be complete",
+  "if_additional_documentation": "Likely approve after documented nicotine abstinence window"
+}

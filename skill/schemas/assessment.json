@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["requested_service", "clinical_summary", "request_conflict", "signals", "criteria", "contradictions", "supporting_factors", "weakening_factors"],
+  "properties": {
+    "requested_service": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["description", "codes", "site_of_care"],
+      "properties": {
+        "description": {"type": "string"},
+        "codes": {"type": "array", "items": {"type": "string"}},
+        "site_of_care": {"type": "string"}
+      }
+    },
+    "clinical_summary": {"type": "string"},
+    "request_conflict": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["present", "detail"],
+      "properties": {
+        "present": {"type": "boolean"},
+        "detail": {"type": "string"}
+      }
+    },
+    "signals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["group", "fact_refs", "effect", "strength", "note"],
+        "properties": {
+          "group": {"type": "string", "enum": ["necessity", "contraindication", "failed_treatment", "severity", "site_of_care"]},
+          "fact_refs": {"type": "array", "items": {"type": "string"}},
+          "effect": {"type": "string", "enum": ["SUPPORTS", "WEAKENS", "NOT_FOUND"]},
+          "strength": {"type": "string", "enum": ["STRONG", "MODERATE", "WEAK", "NONE"]},
+          "note": {"type": "string"}
+        }
+      }
+    },
+    "criteria": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["criterion_id", "label", "criterion_text", "core", "any_of_group", "evidence", "reasoning", "status"],
+        "properties": {
+          "criterion_id": {"type": "string", "pattern": "^C[0-9]+[a-z]?$"},
+          "label": {"type": "string"},
+          "criterion_text": {"type": "string"},
+          "core": {"type": "boolean"},
+          "any_of_group": {"type": "string"},
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["fact_ref", "quote"],
+              "properties": {
+                "fact_ref": {"type": "string"},
+                "quote": {"type": "string"}
+              }
+            }
+          },
+          "reasoning": {"type": "string"},
+          "status": {"type": "string", "enum": ["MET", "PARTIALLY_MET", "UNMET", "NOT_ASSESSABLE"]}
+        }
+      }
+    },
+    "contradictions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["issue", "fact_refs", "preferred_source", "why"],
+        "properties": {
+          "issue": {"type": "string"},
+          "fact_refs": {"type": "array", "items": {"type": "string"}},
+          "preferred_source": {"type": "string"},
+          "why": {"type": "string"}
+        }
+      }
+    },
+    "supporting_factors": {"type": "array", "items": {"type": "string"}},
+    "weakening_factors": {"type": "array", "items": {"type": "string"}}
+  }
+}

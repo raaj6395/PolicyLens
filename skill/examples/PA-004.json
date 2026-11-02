@@ -1,0 +1,8 @@
+{
+  "case_id": "PA-004",
+  "requested_service": "Home oxygen (nocturnal only)",
+  "packet": "Pre-auth request form: Requested service: Home oxygen (nocturnal only).\nClinical summary: Clinical scenario: COPD with dyspnea but limited qualifying hypoxemia data.\nKey findings: Dyspnea symptoms and COPD diagnosis.\nUtilization review note: Gaps or risks noted: No resting/ambulatory sats that meet threshold; nocturnal desaturation study absent.",
+  "recommendation": "LIKELY_DENY",
+  "why": "Symptoms alone do not satisfy oxygen coverage criteria",
+  "if_additional_documentation": "Could become approvable with documented qualifying oximetry/ABG"
+}

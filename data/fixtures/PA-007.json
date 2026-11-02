@@ -1,0 +1,27 @@
+{
+  "title": "PA-007 · IVIG for CIDP",
+  "request": {
+    "case_id": "PA-007",
+    "documents": [
+      {
+        "name": "Pre-auth request form",
+        "type": "request_form",
+        "text": "Requested service: IVIG for CIDP."
+      },
+      {
+        "name": "Clinical summary",
+        "type": "clinical_note",
+        "text": "Clinical scenario: Neuromuscular disease with progression and EMG evidence.\nKey findings: Progressive weakness, areflexia, EMG/NCS supportive, steroid intolerance."
+      },
+      {
+        "name": "Utilization review note",
+        "type": "utilization_review",
+        "text": "Gaps or risks noted: One note questions diagnosis certainty."
+      }
+    ],
+    "options": {}
+  },
+  "expected": {
+    "recommendation": "LIKELY_APPROVE"
+  }
+}

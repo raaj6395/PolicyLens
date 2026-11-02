@@ -1,0 +1,27 @@
+{
+  "title": "PA-004 · Home oxygen (nocturnal only)",
+  "request": {
+    "case_id": "PA-004",
+    "documents": [
+      {
+        "name": "Pre-auth request form",
+        "type": "request_form",
+        "text": "Requested service: Home oxygen (nocturnal only)."
+      },
+      {
+        "name": "Clinical summary",
+        "type": "clinical_note",
+        "text": "Clinical scenario: COPD with dyspnea but limited qualifying hypoxemia data.\nKey findings: Dyspnea symptoms and COPD diagnosis."
+      },
+      {
+        "name": "Utilization review note",
+        "type": "utilization_review",
+        "text": "Gaps or risks noted: No resting/ambulatory sats that meet threshold; nocturnal desaturation study absent."
+      }
+    ],
+    "options": {}
+  },
+  "expected": {
+    "recommendation": "LIKELY_DENY"
+  }
+}

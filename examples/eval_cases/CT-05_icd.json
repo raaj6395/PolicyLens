@@ -1,0 +1,99 @@
+{
+  "case_id": "CT-05",
+  "policy": {
+    "name": "Cardiac Device Policy CD-14: Primary-prevention ICD (synthetic)",
+    "text": "Implantation of an implantable cardioverter-defibrillator (ICD) for primary prevention of sudden cardiac death is medically necessary when ALL of the following are met: (1) ischemic cardiomyopathy with a left ventricular ejection fraction (LVEF) of 35% or less; (2) New York Heart Association (NYHA) class II or III heart failure symptoms; (3) at least 40 days have passed since the most recent myocardial infarction AND at least 90 days have passed since the most recent coronary revascularization (PCI or CABG); (4) at least 3 months of guideline-directed medical therapy at maximally tolerated doses, with any drug not tolerated documented; (5) a reasonable expectation of survival with good functional status for more than 1 year; (6) a documented shared decision-making encounter with the patient before implantation."
+  },
+  "documents": [
+    {
+      "name": "Pre-auth request form",
+      "type": "request_form",
+      "date": "2026-10-28",
+      "text": "Requested: implantation of single-chamber implantable cardioverter-defibrillator (CPT 33249), primary prevention. Setting: outpatient hospital, same-day discharge planned. Planned procedure date: 2026-11-09. Diagnosis: ischemic cardiomyopathy (I25.5); old myocardial infarction (I25.2). LVEF: 33%. Revascularization history: PCI 2026-06-10. No further revascularization. Requesting physician: Dr. A. Rahman, cardiac electrophysiology."
+    },
+    {
+      "name": "Admission H&P",
+      "type": "h_and_p",
+      "date": "2026-06-10",
+      "text": "62-year-old man with 2 hours of crushing chest pain. ECG: anterior ST elevation. Diagnosis: acute anterior STEMI. History: hypertension, hyperlipidemia, type 2 diabetes, former smoker (quit 2015). Allergies: NKDA. Taken emergently to the cath lab."
+    },
+    {
+      "name": "Cardiac catheterization report",
+      "type": "procedure_note",
+      "date": "2026-06-10",
+      "text": "Primary PCI: proximal LAD 100% occlusion treated with one drug-eluting stent, TIMI 3 flow restored. Residual disease: 80% stenosis of the mid RCA, not treated today; staged PCI of the RCA planned in 6 to 10 weeks. Pre-medicated for contrast allergy per protocol."
+    },
+    {
+      "name": "Transthoracic echo",
+      "type": "imaging",
+      "date": "2026-06-12",
+      "text": "LVEF 25% by biplane Simpson. Akinesis of the anterior wall and apex. No LV thrombus. Mild mitral regurgitation."
+    },
+    {
+      "name": "Hospital discharge summary",
+      "type": "clinical_note",
+      "date": "2026-06-14",
+      "text": "Anterior STEMI treated with primary PCI to the LAD on 2026-06-10. LVEF 25%. Discharged on aspirin 81 mg, ticagrelor 90 mg twice daily, atorvastatin 80 mg, metoprolol succinate 25 mg daily (started 2026-06-12) and sacubitril/valsartan 24/26 mg twice daily (started 2026-06-13). Wearable cardioverter-defibrillator prescribed. Plan: staged RCA PCI as outpatient; repeat echo after at least 3 months of medical therapy."
+    },
+    {
+      "name": "Cardiology progress note",
+      "type": "progress_note",
+      "date": "2026-07-01",
+      "text": "Post-MI follow-up. Mild dyspnea walking uphill, NYHA class II. BP 118/72, HR 64. Added spironolactone 25 mg daily and dapagliflozin 10 mg daily today. Increase metoprolol succinate to 50 mg."
+    },
+    {
+      "name": "Lab results trend",
+      "type": "labs",
+      "date": "2026-10-14",
+      "text": "Troponin I 2026-06-10: 48.2 ng/mL. Potassium: 4.2 (2026-06-14), 5.9 (2026-08-03), 4.6 (2026-08-20), 4.4 (2026-10-14) mmol/L. Creatinine: 1.0 (2026-06-14), 1.3 (2026-08-03), 1.1 (2026-10-14) mg/dL. NT-proBNP: 3,450 (2026-06-12), 1,180 (2026-08-03), 610 (2026-10-14) pg/mL."
+    },
+    {
+      "name": "Cardiac catheterization report",
+      "type": "procedure_note",
+      "date": "2026-08-25",
+      "text": "Staged PCI: mid RCA 80% stenosis treated with one drug-eluting stent, excellent result. LAD stent widely patent. Pre-medicated for contrast allergy per protocol. Discharged same day."
+    },
+    {
+      "name": "Pharmacy medication history",
+      "type": "medication_history",
+      "date": "2026-10-20",
+      "text": "Metoprolol succinate 25 mg filled 2026-06-14; 50 mg filled monthly 2026-07-02 to 2026-10-01. Sacubitril/valsartan 24/26 mg filled 2026-06-14 and 2026-07-12; 49/51 mg filled monthly 2026-08-10 to 2026-10-08. Dapagliflozin 10 mg filled monthly 2026-07-02 to 2026-10-01. Spironolactone 25 mg filled 2026-07-02 only; discontinued 2026-08-05 by cardiology for hyperkalemia. Atorvastatin, aspirin and ticagrelor filled monthly."
+    },
+    {
+      "name": "EHR allergy and intolerance list",
+      "type": "allergies",
+      "date": "2026-10-20",
+      "text": "Iodinated contrast media: hives (2018), pre-medicate. Spironolactone: hyperkalemia, potassium 5.9 (intolerance, 2026-08)."
+    },
+    {
+      "name": "Prior procedures list",
+      "type": "procedure_history",
+      "date": "2026-10-20",
+      "text": "2026-06-10 PCI with drug-eluting stent, proximal LAD. 2026-08-25 PCI with drug-eluting stent, mid RCA. 2019 left knee arthroscopy."
+    },
+    {
+      "name": "PCP note",
+      "type": "clinical_note",
+      "date": "2026-09-18",
+      "text": "Routine diabetes visit. Feels well, walking 2 miles daily without chest pain or shortness of breath. HbA1c 7.1%. Continue cardiology plan."
+    },
+    {
+      "name": "Transthoracic echo",
+      "type": "imaging",
+      "date": "2026-10-14",
+      "text": "LVEF 33% by biplane Simpson. Hypokinesis of the anterior wall and apex, improved from prior. No LV thrombus. Mild mitral regurgitation."
+    },
+    {
+      "name": "Electrophysiology consult",
+      "type": "clinical_note",
+      "date": "2026-10-22",
+      "text": "Ischemic cardiomyopathy after anterior STEMI 2026-06-10, s/p PCI to LAD. LVEF 33% on 2026-10-14 despite more than 4 months of guideline-directed medical therapy: metoprolol succinate 50 mg, sacubitril/valsartan 49/51 mg twice daily, dapagliflozin 10 mg; spironolactone stopped for hyperkalemia. NYHA class II: short of breath after one flight of stairs. No syncope. Otherwise good functional status; expected survival well beyond 1 year. Recommend primary-prevention single-chamber ICD. Shared decision-making discussion to be completed and documented at the pre-procedure visit on 2026-11-02."
+    },
+    {
+      "name": "UR nurse pre-review",
+      "type": "utilization_review",
+      "date": "2026-10-29",
+      "text": "Request form lists last revascularization as PCI on 2026-06-10, more than 90 days ago. LVEF 33% on most recent echo. NYHA II per EP. GDMT documented. Shared decision-making documentation not yet in packet. Appears to meet criteria pending SDM note."
+    }
+  ]
+}

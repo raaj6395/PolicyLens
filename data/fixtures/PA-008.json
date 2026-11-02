@@ -1,0 +1,27 @@
+{
+  "title": "PA-008 · Inpatient rehabilitation after ischemic stroke",
+  "request": {
+    "case_id": "PA-008",
+    "documents": [
+      {
+        "name": "Pre-auth request form",
+        "type": "request_form",
+        "text": "Requested service: Inpatient rehabilitation after ischemic stroke."
+      },
+      {
+        "name": "Clinical summary",
+        "type": "clinical_note",
+        "text": "Clinical scenario: Recent stroke with residual deficits.\nKey findings: Needs two disciplines, can participate 3 hrs/day, family support limited, unsafe for home."
+      },
+      {
+        "name": "Utilization review note",
+        "type": "utilization_review",
+        "text": "Gaps or risks noted: Mild aphasia documented inconsistently."
+      }
+    ],
+    "options": {}
+  },
+  "expected": {
+    "recommendation": "LIKELY_APPROVE"
+  }
+}

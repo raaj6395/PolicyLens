@@ -1,0 +1,27 @@
+{
+  "title": "PA-006 · PET/CT surveillance after thyroid cancer",
+  "request": {
+    "case_id": "PA-006",
+    "documents": [
+      {
+        "name": "Pre-auth request form",
+        "type": "request_form",
+        "text": "Requested service: PET/CT surveillance after thyroid cancer."
+      },
+      {
+        "name": "Clinical summary",
+        "type": "clinical_note",
+        "text": "Clinical scenario: Low-risk post-treatment surveillance request.\nKey findings: History of cancer noted."
+      },
+      {
+        "name": "Utilization review note",
+        "type": "utilization_review",
+        "text": "Gaps or risks noted: No rising tumor markers, no suspicious conventional imaging, guideline mismatch."
+      }
+    ],
+    "options": {}
+  },
+  "expected": {
+    "recommendation": "LIKELY_DENY"
+  }
+}

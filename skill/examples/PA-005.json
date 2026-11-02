@@ -1,0 +1,8 @@
+{
+  "case_id": "PA-005",
+  "requested_service": "Biologic therapy for ulcerative colitis",
+  "packet": "Pre-auth request form: Requested service: Biologic therapy for ulcerative colitis.\nClinical summary: Clinical scenario: Moderate-to-severe UC flare refractory to standard therapy.\nKey findings: Frequent bloody stools; calprotectin high; steroid-dependent; failed mesalamine and azathioprine.\nUtilization review note: Gaps or risks noted: TB/hepatitis screening pending.",
+  "recommendation": "NEED_MORE_INFO",
+  "why": "Clinical severity supports therapy, but safety prerequisites incomplete",
+  "if_additional_documentation": "Likely approve once infectious screening and baseline labs complete"
+}

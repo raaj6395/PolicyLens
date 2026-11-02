@@ -1,0 +1,8 @@
+{
+  "case_id": "PA-002",
+  "requested_service": "Elective lumbar fusion for chronic low-back pain",
+  "packet": "Pre-auth request form: Requested service: Elective lumbar fusion for chronic low-back pain.\nClinical summary: Clinical scenario: Mechanical back pain without clear instability.\nKey findings: Chronic pain \u003e1 year; degenerative changes on MRI.\nUtilization review note: Gaps or risks noted: No documented instability; no neurologic deficit; conservative therapy incompletely documented; pain/function mismatch.",
+  "recommendation": "LIKELY_DENY",
+  "why": "Does not meet typical fusion criteria under conservative payer policy",
+  "if_additional_documentation": "Only flips if instability, progressive deficit, or exhaustive failed non-operative management is documented"
+}

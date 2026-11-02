@@ -1,0 +1,8 @@
+{
+  "case_id": "PA-006",
+  "requested_service": "PET/CT surveillance after thyroid cancer",
+  "packet": "Pre-auth request form: Requested service: PET/CT surveillance after thyroid cancer.\nClinical summary: Clinical scenario: Low-risk post-treatment surveillance request.\nKey findings: History of cancer noted.\nUtilization review note: Gaps or risks noted: No rising tumor markers, no suspicious conventional imaging, guideline mismatch.",
+  "recommendation": "LIKELY_DENY",
+  "why": "High-cost imaging not supported in asymptomatic low-risk surveillance under policy",
+  "if_additional_documentation": "Could change if thyroglobulin rises or suspicious lesions emerge"
+}

@@ -1,0 +1,13 @@
+web/node_modules
+web/dist
+.env
+runs/
+.DS_Store
+bin/
+
+# Workbook complex case — keep outside git; use POST /v1/assess locally
+data/fixtures/PA-001-COMPLEX.json
+examples/complex_case_request.json
+docs/complex_case_output.json
+docs/complex_case_output.md
+skill/examples/PA-001-complex-outcome.json

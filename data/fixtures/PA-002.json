@@ -1,0 +1,27 @@
+{
+  "title": "PA-002 · Elective lumbar fusion for chronic low-back pain",
+  "request": {
+    "case_id": "PA-002",
+    "documents": [
+      {
+        "name": "Pre-auth request form",
+        "type": "request_form",
+        "text": "Requested service: Elective lumbar fusion for chronic low-back pain."
+      },
+      {
+        "name": "Clinical summary",
+        "type": "clinical_note",
+        "text": "Clinical scenario: Mechanical back pain without clear instability.\nKey findings: Chronic pain \u003e1 year; degenerative changes on MRI."
+      },
+      {
+        "name": "Utilization review note",
+        "type": "utilization_review",
+        "text": "Gaps or risks noted: No documented instability; no neurologic deficit; conservative therapy incompletely documented; pain/function mismatch."
+      }
+    ],
+    "options": {}
+  },
+  "expected": {
+    "recommendation": "LIKELY_DENY"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "case_id": "PA-001",
+  "requested_service": "C5-C6 cervical decompression/fusion (inpatient)",
+  "packet": "Pre-auth request form: Requested service: C5-C6 cervical decompression/fusion (inpatient).\nClinical summary: Clinical scenario: Progressive cervical myelopathy/radiculopathy over 8 months.\nKey findings: MRI severe canal stenosis with cord compression/T2 signal change; hyperreflexia; Hoffmann sign; failed PT, gabapentin, NSAIDs, ESI.\nUtilization review note: Gaps or risks noted: Latest consult lacks explicit ADL impairment statement and weak inpatient site-of-care justification.",
+  "recommendation": "NEED_MORE_INFO",
+  "why": "Likely medically necessary, but documentation is not payer-ready for inpatient request",
+  "if_additional_documentation": "If surgeon addendum documents gait imbalance/hand dysfunction affecting ADLs and inpatient risk due to OSA/obesity/fall risk, likely approve"
+}

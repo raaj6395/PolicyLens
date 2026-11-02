@@ -1,0 +1,27 @@
+{
+  "title": "PA-009 · Bariatric surgery",
+  "request": {
+    "case_id": "PA-009",
+    "documents": [
+      {
+        "name": "Pre-auth request form",
+        "type": "request_form",
+        "text": "Requested service: Bariatric surgery."
+      },
+      {
+        "name": "Clinical summary",
+        "type": "clinical_note",
+        "text": "Clinical scenario: Morbid obesity with diabetes/OSA.\nKey findings: BMI \u003e40; diabetes/OSA; supervised weight-management program documented; psych clearance done."
+      },
+      {
+        "name": "Utilization review note",
+        "type": "utilization_review",
+        "text": "Gaps or risks noted: Nicotine cessation date unclear."
+      }
+    ],
+    "options": {}
+  },
+  "expected": {
+    "recommendation": "NEED_MORE_INFO"
+  }
+}

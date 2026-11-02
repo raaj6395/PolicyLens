@@ -1,0 +1,8 @@
+{
+  "case_id": "PA-003",
+  "requested_service": "Total knee arthroplasty",
+  "packet": "Pre-auth request form: Requested service: Total knee arthroplasty.\nClinical summary: Clinical scenario: End-stage osteoarthritis with major functional decline.\nKey findings: Severe tricompartmental OA on X-ray; failed NSAIDs/injection/PT; cane use; inability to climb stairs.\nUtilization review note: Gaps or risks noted: BMI elevated but not an exclusion in provided policy.",
+  "recommendation": "LIKELY_APPROVE",
+  "why": "Radiographic disease, symptom severity, and failed conservative treatment are aligned",
+  "if_additional_documentation": "N/A"
+}

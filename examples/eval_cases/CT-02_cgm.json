@@ -1,0 +1,51 @@
+{
+  "case_id": "CT-02",
+  "policy": {
+    "name": "DME Policy DME-22: Continuous glucose monitors (synthetic)",
+    "text": "A therapeutic continuous glucose monitor (CGM) is medically necessary when ALL of the following are met: (1) a diagnosis of diabetes mellitus; (2) EITHER the patient is treated with insulin by multiple daily injections (3 or more injections per day) or an insulin pump, OR the patient has a history of problematic hypoglycemia, defined as recurrent level 2 events (glucose below 54 mg/dL) or at least one level 3 event requiring third-party assistance; (3) the patient had an in-person visit with the treating practitioner within 6 months before the order to evaluate diabetes control; (4) the patient or caregiver has been trained to use the device."
+  },
+  "documents": [
+    {
+      "name": "DME order form",
+      "type": "request_form",
+      "date": "2026-10-25",
+      "text": "Item: therapeutic continuous glucose monitor, receiver and sensors (HCPCS E2103, A4239). Diagnosis: type 2 diabetes mellitus with hyperglycemia (E11.65). Ordering practitioner: Dr. M. Haddad, endocrinology. Sensor quantity per month: [not specified]."
+    },
+    {
+      "name": "Endocrinology clinic visit",
+      "type": "clinical_note",
+      "date": "2026-07-18",
+      "text": "In-person clinic visit. Type 2 diabetes for 12 years. HbA1c 9.2%. Insulin intensified on 2026-06-10 to basal-bolus: glargine 32 units nightly plus lispro 8 units with each meal, 4 injections daily in total. Checks fingersticks 4 times daily. Denies any glucose below 54 or episodes needing help from another person."
+    },
+    {
+      "name": "Endocrinology telehealth visit",
+      "type": "clinical_note",
+      "date": "2026-09-12",
+      "text": "Video visit. Reviewed fingerstick log: fasting 140 to 190, post-meal up to 260. No hypoglycemia. Continue basal-bolus regimen. Will order CGM."
+    },
+    {
+      "name": "Medication reconciliation",
+      "type": "medication_history",
+      "date": "2026-04-02",
+      "text": "Insulin glargine 24 units nightly. Metformin 1000 mg twice daily. Empagliflozin 10 mg daily."
+    },
+    {
+      "name": "Pharmacy fill history",
+      "type": "medication_history",
+      "date": "2026-10-20",
+      "text": "Insulin lispro pens filled 2026-06-11, 2026-07-14, 2026-08-15, 2026-09-16 and 2026-10-14. Insulin glargine filled monthly. Metformin filled monthly."
+    },
+    {
+      "name": "Diabetes educator note",
+      "type": "other",
+      "date": "2026-10-20",
+      "text": "CGM training completed with the patient: sensor insertion, receiver setup, alarm settings and reading trends. Patient inserted a sensor independently and correctly."
+    },
+    {
+      "name": "UR intake screen",
+      "type": "utilization_review",
+      "date": "2026-10-26",
+      "text": "Medication list shows basal insulin only (glargine). Does not appear to meet the multiple daily injection requirement. No history of hypoglycemia. Most recent visit was telehealth. Recommend denial."
+    }
+  ]
+}

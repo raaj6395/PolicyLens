@@ -1,0 +1,57 @@
+{
+  "case_id": "CT-03",
+  "policy": {
+    "name": "Joint Replacement Policy JR-5: Total hip arthroplasty (synthetic)",
+    "text": "Total hip arthroplasty is medically necessary when ALL of the following are met: (1) radiographic evidence of advanced arthritis of the hip to be replaced (Kellgren-Lawrence grade 3 or 4, or severe joint space narrowing); (2) hip pain or functional limitation for at least 3 months that interferes with activities of daily living; (3) failure of at least 3 months of nonsurgical treatment including at least two of: physical therapy, NSAIDs or other analgesics, intra-articular injection, an assistive device, or a weight loss program; (4) for patients with diabetes, HbA1c below 8.0% within 90 days before the planned surgery date; (5) no active infection at any site."
+  },
+  "documents": [
+    {
+      "name": "Pre-auth request form",
+      "type": "request_form",
+      "date": "2026-10-24",
+      "text": "Requested: LEFT total hip arthroplasty (CPT 27130). Setting: inpatient, 1 night. Planned surgery date: 2026-11-12. Diagnosis: unilateral primary osteoarthritis, left hip (M16.12). Surgeon: Dr. T. Brennan, orthopedic surgery."
+    },
+    {
+      "name": "Orthopedic consult",
+      "type": "clinical_note",
+      "date": "2026-10-09",
+      "text": "Dr. T. Brennan. 67-year-old woman with 18 months of right groin pain, now unable to put on her own shoes and socks or walk more than 2 blocks. Uses a cane since March 2026. Exam: right hip internal rotation 5 degrees with pain; left hip full, painless range of motion. Failed physical therapy (12 sessions, March to May 2026), acetaminophen and naproxen, and a right hip intra-articular steroid injection in June 2026 with 3 weeks of relief. Plan: right total hip arthroplasty."
+    },
+    {
+      "name": "X-ray pelvis and both hips",
+      "type": "imaging",
+      "date": "2026-09-30",
+      "text": "Right hip: severe joint space narrowing with subchondral sclerosis and osteophytes, Kellgren-Lawrence grade 4. Left hip: mild joint space narrowing, Kellgren-Lawrence grade 1."
+    },
+    {
+      "name": "PCP note",
+      "type": "clinical_note",
+      "date": "2026-05-14",
+      "text": "Type 2 diabetes. HbA1c 8.4%. Increased metformin, added semaglutide. Recheck in 4 months."
+    },
+    {
+      "name": "Lab result",
+      "type": "labs",
+      "date": "2026-09-28",
+      "text": "HbA1c 7.6%."
+    },
+    {
+      "name": "Urgent care note",
+      "type": "clinical_note",
+      "date": "2026-08-22",
+      "text": "Dysuria for 2 days. Urine culture positive for E. coli. Treated with nitrofurantoin for 5 days."
+    },
+    {
+      "name": "Lab result",
+      "type": "labs",
+      "date": "2026-10-10",
+      "text": "Urinalysis negative for leukocyte esterase and nitrite. Urine culture: no growth."
+    },
+    {
+      "name": "PT discharge summary",
+      "type": "therapy_note",
+      "date": "2026-05-20",
+      "text": "12 sessions completed. Walking with a cane; persistent right hip pain limiting stair climbing. Progress plateaued; discharged to home program."
+    }
+  ]
+}

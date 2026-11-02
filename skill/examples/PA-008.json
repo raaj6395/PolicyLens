@@ -1,0 +1,8 @@
+{
+  "case_id": "PA-008",
+  "requested_service": "Inpatient rehabilitation after ischemic stroke",
+  "packet": "Pre-auth request form: Requested service: Inpatient rehabilitation after ischemic stroke.\nClinical summary: Clinical scenario: Recent stroke with residual deficits.\nKey findings: Needs two disciplines, can participate 3 hrs/day, family support limited, unsafe for home.\nUtilization review note: Gaps or risks noted: Mild aphasia documented inconsistently.",
+  "recommendation": "LIKELY_APPROVE",
+  "why": "Meets intensity/benefit criteria for IRF in supplied policy",
+  "if_additional_documentation": "N/A"
+}

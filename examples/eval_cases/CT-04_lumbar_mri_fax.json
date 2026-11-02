@@ -1,0 +1,15 @@
+{
+  "case_id": "CT-04",
+  "policy": {
+    "name": "Advanced Imaging Policy AI-9: Lumbar spine MRI (synthetic)",
+    "text": "MRI of the lumbar spine without and with contrast is medically necessary for low back pain when ANY ONE of the following is present: (1) suspected cauda equina syndrome (saddle anesthesia, new urinary retention, or new bowel or bladder incontinence); (2) a history of cancer with new or worsening back pain; (3) suspected spinal infection (fever with back pain, IV drug use, or a recent spinal procedure); (4) a progressive or severe motor deficit; (5) persistent radicular pain after at least 6 weeks of documented conservative therapy, when surgery or epidural injection is being considered."
+  },
+  "documents": [
+    {
+      "name": "Faxed records (OCR)",
+      "type": "other",
+      "date": "2026-10-27",
+      "text": "=== PAGE 1/4 === FAX FROM: Lakeside Family Medicine   TO: UM Dept   10/27/2026 14:02\nPRIOR AUTH REQUEST - Imaging\nExam requested: MRI L-spine w/o & w/ contrast (CPT 72158)\nDx: M54.50 low back pain, unspecified; Z85.3 personal hx malignant neoplasm of breast\nOrdering: Dr. S. Velasquez MD (family medicine)\n=== PAGE 2/4 === OFFICE VISIT 10/24/2026\nCC: low back pain x 3 wks, worse at night, not relieved by rest\nHPI: 58 y/o F. Pain started ~10/01, no trauma recalled. Wakes her at night. PMH: L breast ca 2019 s/p mastectomy + chemo, on tamoxifen since 2020. Denies fever. Denies saddle numbness, denies urinary retention or incontinence. No IVDU. No recent spine procedures.\nExam: point tenderness over L2 spinous process. Strengh 5/5 bilat LE. SLR neg bilat.\nA/P: new LBP in pt w/ hx breast ca, night pain, focal spinous tenderness -> r/o metastasis. MRI L-spine w/ contrast. Ibuprofen prn.\n=== PAGE 3/4 === URGENT CARE 10/03/2026\nLifted heavy box at work 9/30, acute LBP. Mechanical strain suspected. No red flags documented. Rx cyclobenzaprine. Return if worse.\n=== PAGE 4/4 === LAB 10/24/2026\nAlk phos 168 U/L (H)  ref 40-129. CBC wnl. ESR 22."
+    }
+  ]
+}

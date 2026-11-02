@@ -1,0 +1,27 @@
+{
+  "title": "PA-010 · TAVR",
+  "request": {
+    "case_id": "PA-010",
+    "documents": [
+      {
+        "name": "Pre-auth request form",
+        "type": "request_form",
+        "text": "Requested service: TAVR."
+      },
+      {
+        "name": "Clinical summary",
+        "type": "clinical_note",
+        "text": "Clinical scenario: Severe symptomatic aortic stenosis with surgical risk factors.\nKey findings: Echo severe AS, syncope, dyspnea, heart team evaluation, frailty."
+      },
+      {
+        "name": "Utilization review note",
+        "type": "utilization_review",
+        "text": "Gaps or risks noted: Coronary anatomy summary missing from referral packet."
+      }
+    ],
+    "options": {}
+  },
+  "expected": {
+    "recommendation": "LIKELY_APPROVE"
+  }
+}

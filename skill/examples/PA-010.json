@@ -1,0 +1,8 @@
+{
+  "case_id": "PA-010",
+  "requested_service": "TAVR",
+  "packet": "Pre-auth request form: Requested service: TAVR.\nClinical summary: Clinical scenario: Severe symptomatic aortic stenosis with surgical risk factors.\nKey findings: Echo severe AS, syncope, dyspnea, heart team evaluation, frailty.\nUtilization review note: Gaps or risks noted: Coronary anatomy summary missing from referral packet.",
+  "recommendation": "LIKELY_APPROVE",
+  "why": "High-risk symptomatic valve disease strongly supports intervention",
+  "if_additional_documentation": "Packet gap should not overturn if heart-team assessment is complete"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "PA-003 · Total knee arthroplasty",
+  "request": {
+    "case_id": "PA-003",
+    "documents": [
+      {
+        "name": "Pre-auth request form",
+        "type": "request_form",
+        "text": "Requested service: Total knee arthroplasty."
+      },
+      {
+        "name": "Clinical summary",
+        "type": "clinical_note",
+        "text": "Clinical scenario: End-stage osteoarthritis with major functional decline.\nKey findings: Severe tricompartmental OA on X-ray; failed NSAIDs/injection/PT; cane use; inability to climb stairs."
+      },
+      {
+        "name": "Utilization review note",
+        "type": "utilization_review",
+        "text": "Gaps or risks noted: BMI elevated but not an exclusion in provided policy."
+      }
+    ],
+    "options": {}
+  },
+  "expected": {
+    "recommendation": "LIKELY_APPROVE"
+  }
+}

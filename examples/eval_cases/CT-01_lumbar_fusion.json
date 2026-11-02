@@ -1,0 +1,57 @@
+{
+  "case_id": "CT-01",
+  "policy": {
+    "name": "Spinal Fusion Policy SF-3 (synthetic)",
+    "text": "Lumbar spinal fusion for degenerative spondylolisthesis is medically necessary when ALL of the following are met: (1) spondylolisthesis with EITHER a grade 2 or higher slip, OR dynamic instability of 3 mm or more translation on flexion-extension radiographs; (2) neurogenic claudication or radiculopathy, with imaging showing corresponding neural compression; (3) at least 6 months of conservative care that included physical therapy, without adequate relief; (4) for patients with any tobacco or nicotine use in the past 12 months, complete nicotine abstinence (including nicotine replacement products) for at least 6 weeks before surgery, confirmed by a negative cotinine test; (5) BMI below 40."
+  },
+  "documents": [
+    {
+      "name": "Pre-auth request form",
+      "type": "request_form",
+      "date": "2026-10-22",
+      "text": "Requested: L4-L5 posterior decompression and instrumented fusion (CPT 22633). Setting: inpatient, 2 nights. Planned surgery date: 2026-11-18. Diagnosis: spondylolisthesis, lumbar region (M43.16); spinal stenosis, lumbar, with neurogenic claudication (M48.062). Surgeon: Dr. K. Osei, orthopedic spine surgery."
+    },
+    {
+      "name": "MRI lumbar spine",
+      "type": "imaging",
+      "date": "2026-06-03",
+      "text": "Grade 1 anterolisthesis of L4 on L5 with severe central canal stenosis and bilateral lateral recess narrowing compressing the traversing L5 nerve roots. No evidence of instability on this static study."
+    },
+    {
+      "name": "Flexion-extension radiographs",
+      "type": "imaging",
+      "date": "2026-09-15",
+      "text": "L4 on L5 anterolisthesis measures 3 mm in extension and 8 mm in flexion, for 5 mm of dynamic translation. Grade 1 slip."
+    },
+    {
+      "name": "Spine surgery consult",
+      "type": "clinical_note",
+      "date": "2026-10-08",
+      "text": "64-year-old woman with 14 months of bilateral leg pain and heaviness when walking more than one block, relieved by sitting and bending forward. Numbness in the right L5 dermatome. Right EHL strength 4/5. Conservative care: physical therapy February to April 2026, home exercise program since, gabapentin, naproxen, and L4-L5 epidural steroid injections in March and July 2026 with only temporary relief. Former smoker, quit 2026-08-01. BMI 38.7. Plan: L4-L5 decompression and fusion. Cotinine ordered."
+    },
+    {
+      "name": "PCP note",
+      "type": "clinical_note",
+      "date": "2026-06-20",
+      "text": "Current smoker, half a pack per day. Counseled on cessation, nicotine replacement offered. BMI 40.6. Back and leg pain followed by spine surgery."
+    },
+    {
+      "name": "PT discharge summary",
+      "type": "therapy_note",
+      "date": "2026-04-28",
+      "text": "10 sessions completed. Minimal improvement in walking tolerance; still limited to about one block. Discharged to home exercise program."
+    },
+    {
+      "name": "Lab result",
+      "type": "labs",
+      "date": "2026-10-21",
+      "text": "Urine cotinine: specimen received 2026-10-21. Result pending."
+    },
+    {
+      "name": "Pre-operative nursing intake",
+      "type": "clinical_note",
+      "date": "2026-10-21",
+      "text": "Patient reports she has not smoked a cigarette since August 1. Currently using nicotine patch 14 mg daily to manage cravings. Plans to stop the patch after surgery."
+    }
+  ]
+}

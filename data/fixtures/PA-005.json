@@ -1,0 +1,27 @@
+{
+  "title": "PA-005 · Biologic therapy for ulcerative colitis",
+  "request": {
+    "case_id": "PA-005",
+    "documents": [
+      {
+        "name": "Pre-auth request form",
+        "type": "request_form",
+        "text": "Requested service: Biologic therapy for ulcerative colitis."
+      },
+      {
+        "name": "Clinical summary",
+        "type": "clinical_note",
+        "text": "Clinical scenario: Moderate-to-severe UC flare refractory to standard therapy.\nKey findings: Frequent bloody stools; calprotectin high; steroid-dependent; failed mesalamine and azathioprine."
+      },
+      {
+        "name": "Utilization review note",
+        "type": "utilization_review",
+        "text": "Gaps or risks noted: TB/hepatitis screening pending."
+      }
+    ],
+    "options": {}
+  },
+  "expected": {
+    "recommendation": "NEED_MORE_INFO"
+  }
+}
